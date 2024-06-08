@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect for better visibility of text */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black; /* Text color black */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .nav-links a:hover {
+    color: cyan; /* Text color changes to cyan on hover */
+  }
+  
